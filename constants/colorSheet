@@ -1,0 +1,9 @@
+const colors = {
+    paleBackground: "#ffffff",
+    indexText: "#000000",
+    textColor: "#716123",
+    sillyText: "#ff0000",
+    aboutText: "#0000ff",
+}
+
+export default colors;
