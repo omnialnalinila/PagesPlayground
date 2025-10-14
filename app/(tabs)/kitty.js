@@ -16,7 +16,9 @@ export default function Kitty() {
   return (
     <View style={styles.container}>
       <Text>Kitty Page :3</Text>
-      <Pressable onPress={meow}>
+      <Pressable onPress={meow, Alert.alert("Your device has a virus!", "" [
+         text: "OK", onPress: ()=>{Alert.alert("JK", "This was a prank lol, you should see the look on your face"}
+      ])}>
       <Image
         style={styles.picture}
         source={{uri:'https://pbs.twimg.com/media/G049fOUaoAIVoDT.jpg'}}
